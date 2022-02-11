@@ -1,13 +1,51 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 55px;
+  color: rgb(230, 151, 17);
+  font-weight: 600;
+  text-shadow: 3px 3px black;
+}
+
+header {
+  text-align: center;
+  background: url(../src/images/ice.jpg);
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 70px;
+  margin-bottom: 30px;
+}
+
+.app {
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.menuCard {
+  width: 350px;
+  padding: 10px 25px;
+  margin: 10px 5px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: solid 3px black;
+}
+
+.menuCardTitle {
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+  font-size: 18px;
+}
+
+span {
+  color: red;
 }
