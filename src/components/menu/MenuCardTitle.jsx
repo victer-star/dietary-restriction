@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export const MenuCardTitle = () => {
   const [isClick, setIsClick] = useState(false);
-  const [inputCardTitle, setInputCardTitle] = useState("メニュー");
+  const [inputCardTitle, setInputCardTitle] = useState("");
 
   const handleClick = () => {
     setIsClick(true);
@@ -30,6 +30,7 @@ export const MenuCardTitle = () => {
         <form onSubmit={handleSubmit}>
           <input
             className="menuCardTitleInput"
+            placeholder="メニュー名入力欄"
             autoFocus
             type="text"
             onChange={handleChange}
