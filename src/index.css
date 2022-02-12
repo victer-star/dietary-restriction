@@ -26,6 +26,7 @@ header {
 .app {
   height: 100vh;
   background-color: antiquewhite;
+  overflow: auto;
 }
 
 .menuCard {
