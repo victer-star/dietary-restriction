@@ -181,3 +181,68 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+@media screen and (max-width: 600px) {
+  header {
+    text-align: center;
+    background: url(../src/images/ice.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px;
+    /* margin-bottom: 10px; */
+  }
+
+  h1 {
+    font-size: 35px;
+    color: rgb(230, 151, 17);
+    font-weight: 600;
+    text-shadow: 3px 3px black;
+  }
+  /* メニュー名 */
+  .menuTitleAddInput {
+    width: 40%;
+    font-size: 12px;
+    padding: 20px 5px;
+    height: 30px;
+  }
+  /* 脂質・糖質入力欄 */
+  .sugarAndLipidsInput {
+    margin-left: 15px;
+    width: 16%;
+    font-size: 12px;
+    height: 30px;
+    padding: 20px 5px;
+  }
+  /* 作成したメニューリスト */
+  .menuList {
+    margin: 8px 0px;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    background-color: rgb(240, 232, 214);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+  }
+  /* 食品名 */
+  .menuText {
+    width: 45%;
+    text-align: center;
+  }
+  /* 脂質・糖質 */
+  .menuLipidAndSugar {
+    width: 20%;
+    text-align: left;
+  }
+  /* 作成したメニューの削除ボタン */
+  .menuTrashButton {
+    border: none;
+    margin-right: 10px;
+    background-color: rgb(240, 232, 214);
+    font-size: 15px;
+    cursor: pointer;
+  }
+}

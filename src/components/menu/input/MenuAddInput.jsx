@@ -57,7 +57,7 @@ export const MenuAddInput = ({
           className="sugarAndLipidsInput"
           type="number"
           placeholder="脂質(g)"
-          step="0.5"
+          step="0.1"
           {...register("lipid", {
             required: "0〜100gまでの値を入力してください",
           })}
@@ -67,7 +67,7 @@ export const MenuAddInput = ({
           className="sugarAndLipidsInput"
           type="number"
           placeholder="糖質(g)"
-          step="0.5"
+          step="0.1"
           {...register("sugar", {
             required: "0〜100gまでの値を入力してください",
           })}
