@@ -14,7 +14,11 @@ export const MenuCardTitle = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsClick(false);
+    if (inputCardTitle === "") {
+      return;
+    } else {
+      setIsClick(false);
+    }
   };
 
   const handleBlur = () => {
@@ -31,6 +35,7 @@ export const MenuCardTitle = () => {
             onChange={handleChange}
             onBlur={handleBlur}
             value={inputCardTitle}
+            maxLength="20"
           ></input>
         </form>
       ) : (
