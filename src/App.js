@@ -1,5 +1,5 @@
 import { Header } from "./components/header/Header";
-import { MenuCards } from "./components/task/MenuCards";
+import { MenuCards } from "./components/menu/MenuCards";
 
 export function App() {
   return (
