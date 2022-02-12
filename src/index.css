@@ -196,10 +196,14 @@ input[type="number"] {
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(230, 151, 17);
     font-weight: 600;
     text-shadow: 3px 3px black;
+  }
+  /* メニューフォーム */
+  .menuAddInput {
+    text-align: left;
   }
   /* メニュー名 */
   .menuTitleAddInput {
@@ -210,8 +214,8 @@ input[type="number"] {
   }
   /* 脂質・糖質入力欄 */
   .sugarAndLipidsInput {
-    margin-left: 15px;
-    width: 16%;
+    margin-left: 5px;
+    width: 19%;
     font-size: 12px;
     height: 30px;
     padding: 20px 5px;
@@ -222,7 +226,7 @@ input[type="number"] {
     padding: 8px 0px;
     display: flex;
     justify-content: space-around;
-    font-size: 15px;
+    font-size: 13px;
     background-color: rgb(240, 232, 214);
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px black;
@@ -234,7 +238,7 @@ input[type="number"] {
   }
   /* 脂質・糖質 */
   .menuLipidAndSugar {
-    width: 20%;
+    width: 22%;
     text-align: left;
   }
   /* 作成したメニューの削除ボタン */
@@ -244,5 +248,10 @@ input[type="number"] {
     background-color: rgb(240, 232, 214);
     font-size: 15px;
     cursor: pointer;
+  }
+  .AddMenuCardButtonArea {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
