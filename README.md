@@ -1,38 +1,37 @@
-# アプリケーション名
-
-「脂質・糖質簡単計算アプリ」
+# 脂質・糖質簡単計算アプリ
 
 <img width="1680" alt="スクリーンショット 2022-02-13 17 14 50" src="https://user-images.githubusercontent.com/79968621/153744869-2ad5d972-b1a1-42b2-886b-965db5460ce8.png">
 
-##　　アプリケーション概要
 
-食材に入っている脂質・糖質量がどのくらいあるのか簡単に計算するアプリです。
+## アプリケーション概要
 
-##　 URL
+&ensp;　食材に入っている脂質・糖質量がどのくらいあるのか簡単に計算するアプリです。
 
-https://dietary-restriction.vercel.app/
+## URL
 
-##　　このアプリを作成した理由
+&ensp;　https://dietary-restriction.vercel.app/  
 
-React の学習成果物として作成しました。
+## このアプリを作成した理由
 
-##　　目指した課題解決
+&ensp;　React の学習成果物として作成しました。  
 
-たとえば今日食べる夕食がどのくらいの脂質や糖質があるのかスーパーなど、その場所で簡単に計算することができます。
+## 目指した課題解決
+
+&ensp;　たとえば今日食べる夕食がどのくらいの脂質や糖質があるのかスーパーなど、その場所で簡単に計算することができます。  
 
 ## 利用方法
 
-メニュー名(任意)と食品名(必須)、脂質(必須)、糖質(必須)をそれぞれ入力するだけです。また、メニューごとの移動をドロップ＆ドラッグができます。
+&ensp;　メニュー名(任意)と食品名(必須)、脂質(必須)、糖質(必須)をそれぞれ入力するだけです。また、メニューごとの移動をドロップ＆ドラッグができます。  
 
-##　　使用技術
+## 使用技術
 
-・React.js
--React Hooks
-・Javascript
-・vercel
+&ensp;　・React.js  
+&ensp;　　　-React Hooks  
+&ensp;　・Javascript  
+&ensp;　・vercel
 
-##　　使用したライブラリ
+## 使用したライブラリ
 
-・react-beautiful-dnd
-・uuid
-・react-hook-form
+&ensp;　・react-beautiful-dnd  
+&ensp;　・uuid  
+&ensp;　・react-hook-form
